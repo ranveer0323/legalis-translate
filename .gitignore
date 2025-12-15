@@ -1,6 +1,7 @@
 # Ignore Python
 backend/venv/
 backend/__pycache__/
+backend/debug_api.py
 *.pyc
 
 # Ignore Node
