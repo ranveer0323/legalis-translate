@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@tailwind utilities;
+
+:root {
+  background-color: #FDFBF7; /* Warm Paper / Bone White */
+  color: #1c1917; /* Dark Stone (Softer than black) */
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-image: radial-gradient(#e5e7eb 1px, transparent 1px);
+  background-size: 24px 24px; /* Subtle dot pattern */
+}
+
+/* Scrollbar styling for light mode */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f5f5f4; 
+}
+::-webkit-scrollbar-thumb {
+  background: #d6d3d1; 
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a29e; 
+}
